@@ -16,6 +16,7 @@
         <nav class="navbar">
             <ul>
                 <li><a href="#about">About</a></li>
+                <li><a href="#research-interests">Research Interest</a></li>
                 <li><a href="#research">Research Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#education">Education</a></li>
@@ -39,6 +40,7 @@
         <nav class="mobile-navbar" id="mobile-navbar">
             <ul>
                 <li><a href="#about">About</a></li>
+                <li><a href="#research-interests">Research Interest</a></li>
                 <li><a href="#research">Research Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#education">Education</a></li>
@@ -71,7 +73,17 @@
 
 
 
-
+            <section id="research-interests">
+                <h2>Research Interests</h2>
+                <ul>
+                    <li>Machine Learning</li>
+                    <li>Signal Processing & Feature Extraction</li>
+                    <li>Computer Vision</li>
+                    <li>Natural Language Processing</li>
+                    <li>Human Computer Interaction</li>
+                </ul>
+            </section>
+            
 
 
 
@@ -88,7 +100,7 @@
                         <p><i><span class="author-text"> Supervisor: S. M. Mahedy Hasan</i></span></p>
                     </div>
                     <div class="links">
-                        <a href="https://github.com/tushar9085/Exploring-EEG-Features-for-Emotion-Recognition-Thesis-Code" target="_blank">GitHub</a>
+                        <a href="https://github.com/tushar9085/Exploring-EEG-Features-for-Emotion-Recognition-Thesis-Code" target="_blank" class="links">GitHub</a>
                     </div>
                 </div>
             
@@ -100,7 +112,7 @@
                         <p><i><span class="author-text"> Authors: <span><b>Tushar Das</b></span>, S. M. Mahedy Hasan, Anwar Hossain Efat, Md. Farukuzzaman Faruk, Azmain Yakin Srizon, Md. Al Mamun, Md. Rakib Hossain</span></i></p>
                     </div>
                     <div class="links">
-                        <a href="https://github.com/tushar9085/Towards-Superior-EEG-Based-Emotion-Recognition-code" target="_blank">GitHub</a> | <a href="https://doi.org/10.1109/ICEEICT62016.2024.10534372" target="_blank">DOI</a>
+                        <a href="https://github.com/tushar9085/Towards-Superior-EEG-Based-Emotion-Recognition-code" target="_blank" class="links">GitHub</a> | <a href="https://doi.org/10.1109/ICEEICT62016.2024.10534372" target="_blank" class="links">DOI</a>
                     </div>
                 </div>
             
@@ -111,7 +123,7 @@
                         <p>This work uses CNN models, YOLOv5x and YOLOv8l, to detect pavement distresses like potholes and cracks in flood-prone areas. With a custom dataset of 1500 images, YOLOv8l outperforms YOLOv5x. An innovative feature is the extraction of damage area masks, enabling better assessment of distress severity for prioritizing repairs.</p>                    
                     </div>
                     <div class="links">
-                        <a href="https://github.com/tushar9085/Road-Pavement-Damage-Analysis" target="_blank">GitHub</a>
+                        <a href="https://github.com/tushar9085/Road-Pavement-Damage-Analysis" target="_blank" class="links">GitHub</a>
                     </div>
                 </div>
             </section>
@@ -135,51 +147,105 @@
 
             <section id="projects">
                 <h2>Projects</h2>
-            
+                
+                
+
                 <div class="project-item">
-                    <strong>SentimentFlix: IMDb Movie Review Sentiment Analysis</strong>
-                    <div class="chat-box">
-                        <p>A machine learning project that analyzes IMDb movie reviews by scraping data from review links and predicting overall sentiment</p>
-                    </div>
-                    <div class="links">
-                        <a href="https://github.com/tushar9085/SentimentFlix" target="_blank">GitHub</a>
-                    </div>
-                </div>
-            
-                <div class="project-item">
-                    <strong>6-Bit CPU Design (Computer Architecture)</strong>
-                    <div class="chat-box">
-                        <p>A 6-bit CPU with 16-bit ISA and RAM, supporting AND, ADD, ROR operations, and instructions like JMP and JL</p>
-                    </div>
-                    <div class="links">
-                        <a href="https://github.com/tushar9085/6_Bit_CPU_Design" target="_blank">GitHub</a>
-                    </div>
-                </div>
-            
-                <div class="project-item">
-                    <strong>Ruet Pedia</strong>
-                    <div class="chat-box">
-                        <p>A news platform for RUET, allowing users to create accounts, post current news, and interact with other users' posts. Built with HTML, CSS, and the Laravel framework</p>
-                        
-                        <p><i><span class="author-text"> Group: Mahmood Reyal, <span><b>Tushar Das</b></span>, <span class="author-text">Rafi Ahmed Shongram</span></span></i>
-                    </div>
-                    <div class="links">
-                        <a href="https://github.com/tushar9085/project_newspaper" target="_blank">GitHub</a>
-                    </div>
-                </div>
-            
-                <div class="project-item">
-                    <strong>Neural Network Algorithms</strong>
-                    <div class="chat-box">
-                        <p>Implemented several neural network algorithms - Nearest Neighbor Classification, Single Layer Perceptron, Multi-layer Neural Networks, Kohonen Self-organizing Networks, and Hopfield Networks - developed from scratch using the Abalone dataset. It offers insights into neural network mechanics and a foundational understanding of Deep Neural Networks</p>
-                    </div>
-                    <div class="links">
-                        <a href="https://github.com/tushar9085/Neural-Network-Algorithms" target="_blank">GitHub</a>
+                    <h3 class="project-title">Road Pavement Damage Detection</h3>
+                    <p class="status"><em>2024</em></p>
+                    <div class="project-content">
+                        <img src="images/projects/project_1.gif" alt="Road Pavement Damage Detection GIF" class="project-image">
+                        <div class="project-description">
+                            <ul>
+                                <li>Created a dataset of 1500 road images, organized into three categories: potholes, cracks, and edge cracks.</li>
+                                <li>Used advanced CNN models (YOLOv5 and YOLOv8) to detect and classify the damage in the images.</li>
+                                <li>Added a new feature by extracting damage masks from YOLOv8l, which helps measure the severity of the damage.</li>
+                            </ul>
+                            <div class="links">
+                                <a href="https://github.com/tushar9085/Road-Pavement-Damage-Analysis" target="_blank" class="github-link">GitHub</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
-                <!-- Add more project items as needed -->
+                <div class="project-item">
+                    <h3 class="project-title">Implementation and Analysis of Neural Networks for Abalone Age Prediction</h3>
+                    <p class="status"><em>2023</em></p>
+                    <div class="project-content">
+                        <img src="images/projects/project_2.gif" alt="Neural Networks for Abalone Age Prediction GIF" class="project-image">
+                        <div class="project-description">
+                            <ul>
+                                <li>Developed various neural network algorithms from scratch, including Nearest Neighbor, Perceptron, and Kohonen Networks.</li>
+                                <li>Each algorithm was developed from the ground up, providing a deeper understanding of how neural networks operate.</li>
+                            </ul>
+                            <div class="links">
+                                <a href="https://github.com/tushar9085/Neural-Network-Algorithms" target="_blank" class="github-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-item">
+                    <h3 class="project-title">6-Bit CPU Design (Computer Architecture)</h3>
+                    <p class="status"><em>Individual Assignment | 2023</em></p>
+                    <div class="project-content">
+                        <img src="images/projects/project_3.gif" alt="6-Bit CPU Design GIF" class="project-image">
+                        <div class="project-description">
+                            <ul>
+                                <li>Designed a 6-bit CPU architecture, focusing on core components such as the Arithmetic Logic Unit (ALU) and registers to perform basic operations like addition and logical operations.</li>
+                                <li>Implemented a simple instruction set architecture (ISA) supporting various modes, enhancing the CPU's capability to execute instructions efficiently.</li>
+                                <li>Utilized Digital design software to create and visualize the CPU circuit, providing practical experience in computer architecture and digital system design.</li>
+                            </ul>
+                            <div class="links">
+                                <a href="https://github.com/tushar9085/6_Bit_CPU_Design" target="_blank" class="github-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-item">
+                    <h3 class="project-title">SentimentFlix: IMDb Movie Review Sentiment Analysis</h3>
+                    <p class="status"><em>Group: <span><b>Tushar Das</b></span>, Taifur Rahman | 2023</em></p>
+                    <div class="project-content">
+                        <img src="images/projects/project_4.gif" alt="SentimentFlix GIF" class="project-image">
+                        <div class="project-description">
+                            <ul>
+                                <li>Developed a machine learning model trained on 50,000 IMDb movie reviews.</li>
+                                <li>Implemented a Streamlit application that allows users to input an IMDb review link for real-time sentiment analysis.</li>
+                                <li>Developed an automated system for extracting reviews and assessing sentiments, demonstrating the real-world applications of NLP (Natural Language Processing) in the film industry.</li>
+                            </ul>
+                            <div class="links">
+                                <a href="https://github.com/tushar9085/SentimentFlix" target="_blank" class="github-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-item">
+                    <h3 class="project-title">RUET Pedia: Newspaper Website</h3>
+                    <p class="status"><em>Group: Mahmood Reyal, <span><b>Tushar Das</b></span>, Rafi Ahmed Songram | 2023</em></p>
+                    <div class="project-content">
+                        <img src="images/projects/project_5.gif" alt="RUET Pedia GIF" class="project-image">
+                        <div class="project-description">
+                            <ul>
+                                <li>Built a website for RUET that enables news sharing among students and faculty.</li>
+                                <li>Allows users to create accounts, log in, and interact with posts.</li>
+                                <li>Developed using HTML, CSS, PHP, and the Laravel framework.</li>
+                            </ul>
+                            <div class="links">
+                                <a href="https://github.com/tushar9085/project_newspaper" target="_blank" class="github-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                
+            
             </section>
+            
+            
+            
             
             
             
