@@ -285,6 +285,19 @@ section p {
 
 
 
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8em;
+    color: #585858;
+    /* position: fixed; */
+    bottom: 0;
+    right: 0;
+}
+
+
+
 
 
 
