@@ -1,3 +1,41 @@
+
+// Select the menu button and navbar
+const mobileMenuButton = document.getElementById("mobile-menu-button");
+const mobileNavbar = document.getElementById("mobile-navbar");
+const mobileNavLinks = mobileNavbar.querySelectorAll("a");
+
+// Toggle the navbar when the menu button is clicked
+mobileMenuButton.addEventListener("click", () => {
+    mobileNavbar.classList.toggle("active"); // Add/remove the "active" class
+});
+
+// Close the navbar when a link is clicked
+mobileNavLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+        mobileNavbar.classList.remove("active"); // Remove "active" class to hide the navbar
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Scroll-to-Top Button Logic
 const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 const isMobile = window.matchMedia("(max-width: 768px)").matches; // Check screen size
