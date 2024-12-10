@@ -18,6 +18,29 @@ mobileNavLinks.forEach((link) => {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Scroll-to-Top Button Logic
 const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 const isMobile = window.matchMedia("(max-width: 768px)").matches; // Check screen size
@@ -72,3 +95,11 @@ window.addEventListener("scroll", () => {
         }
     });
 });
+
+
+
+
+
+
+
+
